@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 var bot = new Discord.Client()
 
 bot.on("ready", () => {
-    bot.user.setGame({ game: {name: '|d!help|', type : 0}})
+    bot.user.setPresence({ game: {name: '|d!help|', type : 0}})
     console.log("Bot Ready !");
 });
 
