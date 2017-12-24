@@ -7,7 +7,7 @@ var party_launch = false
 
 
 bot.on("ready", () => {
-    bot.user.setGame({ game: {name: '|d!help', type : 0}})
+    bot.user.setGame({ game: {name: '|d!help|', type : 0}})
     console.log("Bot Ready !");
 });
 
